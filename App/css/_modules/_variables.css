@@ -1,0 +1,20 @@
+/* Color */
+$primary: #fff;
+$secondary: #fff;
+$ternary: #fff;
+
+/* Fonts */
+$primary-font: arial;
+$secondary-font: arial;
+
+/* Margins */
+$ml: 6rem;
+$mm: 2rem;
+$ms: 1rem;
+
+/* breakpoints */
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$xlarge: 1200px;
+

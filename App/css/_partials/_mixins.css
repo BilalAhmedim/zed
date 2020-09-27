@@ -1,0 +1,33 @@
+/* breakpoints */
+@define-mixin small {
+  @media (min-width: $small){
+    @mixin-content;
+  }
+}
+
+@define-mixin medium {
+  @media (min-width: $medium){
+    @mixin-content;
+  }
+}
+
+@define-mixin large{
+  @media (min-width: $large){
+    @mixin-content;
+  }
+}
+
+@define-mixin xlarge{
+  @media (min-width: $xlarge){
+    @mixin-content;
+  }
+}
+
+/* clearfix */
+@define-mixin clearfix{
+  &::after{
+    content: '';
+    clear: both;
+    display: table;
+  }
+}

@@ -1,4 +1,4 @@
 @import 'normalize.css';
-*{
-  box-sizing: border-box;
-}
+@import '_modules/_variables.css';
+@import '_partials/_mixins.css';
+@import '_modules/_global.css';
